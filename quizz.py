@@ -1,3 +1,6 @@
+from quiz_logic import is_correct_answer, calculate_percentage
+
+
 questions = [
     {
         "question": "1. Which Git command is used to download a repository from a remote server to a local machine?",
@@ -39,7 +42,7 @@ questions = [
 print("=" * 65)
 print("CSC3324 - GIT QUIZ")
 print("=" * 65)
-print("Choose the number of the correct answer (1, 2, 3, or 4).\\n")
+print("Choose the number of the correct answer (1, 2, 3, or 4).\n")
 
 score = 0
 
@@ -54,7 +57,7 @@ for q in questions:
             break
         print("Please enter 1, 2, 3, or 4.")
 
-    if int(choice) == q["answer"]:
+    if is_correct_answer(choice, q["answer"]):
         print("Correct!\n")
         score += 1
     else:
@@ -62,5 +65,6 @@ for q in questions:
 
 print("=" * 65)
 print(f"FINAL SCORE: {score}/{len(questions)}")
-print(f"Percentage: {score / len(questions) * 100:.1f}%")
+percentage = calculate_percentage(score, len(questions))
+print(f"Percentage: {percentage:.1f}%")
 print("=" * 65)

@@ -8,4 +8,4 @@ Quiz
 - Member B: GitHub username — Feature to define
 
 ## Project Status
-Project status: README conflict exercise by Amine.
+Project status: Quiz development and testing in progress.

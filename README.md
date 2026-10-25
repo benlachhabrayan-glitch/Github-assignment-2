@@ -8,4 +8,4 @@ Quiz
 - Member B: GitHub username — Feature to define
 
 ## Project Status
-Project status: Development in progress.ss with a chicken
+Project status: Quiz development and testing in progress.

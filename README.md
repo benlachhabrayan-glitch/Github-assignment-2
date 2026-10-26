@@ -8,7 +8,7 @@ Quiz
 - Member B: Mohamed Amine Menouer (penouar) — Unit test coding and pull request review
 
 ## Project Status
-Project status: Quiz development and testing in progress. added try*
+Project status: Quiz development and testing in progress. added try* another*
 
 ## Project Website
 

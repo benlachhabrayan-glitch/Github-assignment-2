@@ -8,7 +8,7 @@ Quiz
 - Member B: GitHub username — Feature to define
 
 ## Project Status
-Project status: Quiz development and testing in progress.
+Project status: Quiz development and testing in progress. added try*
 
 ## Project Website
 

@@ -25,3 +25,6 @@ class TestQuizLogic(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+def test_demo_required_check_fails():
+    assert False, "Intentional failure to demonstrate branch protection"

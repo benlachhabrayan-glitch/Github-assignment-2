@@ -4,11 +4,11 @@
 Quiz
 
 ## Team Members
-- Member A: GitHub username — Quiz feature
-- Member B: GitHub username — Feature to define
+- Member A: Rayan Benlachhab (benlachharayan-github) — Quiz feature and managing the repository
+- Member B: Mohamed Amine Menouer (penouar) — Unit test coding and pull request review
 
 ## Project Status
-Project status: Quiz development and testing in progress.
+Project status: Quiz development and testing in progress. added try*
 
 ## Project Website
 
